@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Test Results skin"
+  ComponentType="TestResults"
+  EnableResponsiveOutput="True"
+  ShowPassFail="true"
+  ShowScore="true"
+  ShowQuestions="true"
+  ShowUserAnswers="true"
+  ShowCorrectAnswers="true"
+  ShowQuestionFeedback="true"
+  ScoreType="PercentageCorrect">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Title">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Score Title">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Score">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Question Container">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+          <Property
+            Name="BorderBottom">solid 1px var(--Light)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Maxed Attempts Warning">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Incomplete Page Link">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

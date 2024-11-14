@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="eLearning Toolbar skin"
+  ComponentType="ELearningToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="ToolbarItem">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical var(--Light) var(--Light)</Property>
+          <Property
+            Name="BackgroundColor">var(--Light)</Property>
+          <Property
+            Name="BorderLeft">solid 1px var(--Light)</Property>
+          <Property
+            Name="BorderRight">solid 1px var(--Light)</Property>
+          <Property
+            Name="BorderTop">solid 1px var(--Light)</Property>
+          <Property
+            Name="BorderBottom">solid 1px var(--Light)</Property>
+          <Property
+            Name="BoxShadowColor">var(--Lightest)</Property>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="ToolbarItem (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical var(--Primary) var(--Primary)</Property>
+          <Property
+            Name="BorderLeft">solid 1px var(--Primary)</Property>
+          <Property
+            Name="BorderRight">solid 1px var(--Primary)</Property>
+          <Property
+            Name="BorderTop">solid 1px var(--Primary)</Property>
+          <Property
+            Name="BorderBottom">solid 1px var(--Primary)</Property>
+          <Property
+            Name="Color">var(--Lightest)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="ToolbarItem (disabled)">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical var(--Light) var(--Light)</Property>
+          <Property
+            Name="BorderLeft">solid 1px var(--Light)</Property>
+          <Property
+            Name="BorderRight">solid 1px var(--Light)</Property>
+          <Property
+            Name="BorderTop">solid 1px var(--Light)</Property>
+          <Property
+            Name="BorderBottom">solid 1px var(--Light)</Property>
+          <Property
+            Name="Color">var(--Medium)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Toolbar Button Separator">
+        <Properties>
+          <Property
+            Name="Color">var(--Light)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Outer Progress Bar">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Light)</Property>
+          <Property
+            Name="BorderLeft">solid 1px var(--Light)</Property>
+          <Property
+            Name="BorderRight">solid 1px var(--Light)</Property>
+          <Property
+            Name="BorderTop">solid 1px var(--Light)</Property>
+          <Property
+            Name="BorderBottom">solid 1px var(--Light)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Inner Progress Bar">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Progress Text">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>
